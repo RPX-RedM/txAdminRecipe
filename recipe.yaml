@@ -85,7 +85,7 @@ tasks:
 
   - action: download_github
     dest: ./resources/[RPX]/rpx-cinematic
-    ref: master
+    ref: main
     src: https://github.com/RPX-RedM/rpx-cinematic
 
   - action: download_github
