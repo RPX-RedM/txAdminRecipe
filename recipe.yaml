@@ -21,9 +21,9 @@ tasks:
 
   # Download Standalone Resources
   - action: download_github
-    src: https://github.com/RPX-RedM/cfx-server-data
-    subpath: resources
     dest: ./resources/[CFX]
+    ref: main
+    src: https://github.com/RPX-RedM/cfx-server-data
 
   - action: download_file
     path: ./tmp/files/oxmysql.zip
