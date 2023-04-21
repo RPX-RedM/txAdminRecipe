@@ -98,6 +98,11 @@ tasks:
     ref: main
     src: https://github.com/RPX-RedM/rpx-banks
 
+  - action: download_github
+    dest: ./resources/[RPX]/rpx-radial
+    ref: main
+    src: https://github.com/RPX-RedM/rpx-radial
+
   # Clean up
   - action: remove_path
     path: ./tmp
