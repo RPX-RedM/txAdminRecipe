@@ -44,12 +44,12 @@ tasks:
 
   - action: download_github
     dest: ./resources/[STANDALONE]/PolyZone
-    ref: main
+    ref: master
     src: https://github.com/whooith/PolyZone
 
   - action: download_github
     dest: ./resources/[STANDALONE]/weathersync
-    ref: main
+    ref: master
     src: https://github.com/kibook/weathersync
 
   # Download RPX Resources
