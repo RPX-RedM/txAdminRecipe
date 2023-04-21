@@ -60,7 +60,7 @@ tasks:
 
   - action: download_github
     dest: ./resources/[RPX]/rpx-multicharacter
-    ref: master
+    ref: main
     src: https://github.com/RPX-RedM/rpx-multicharacter
 
   - action: download_github
