@@ -40,7 +40,7 @@ tasks:
   - action: download_github
     dest: ./resources/[STANDALONE]/meta_target
     ref: main
-    src: https://github.com/meta-hub/meta_target
+    src: https://github.com/RPX-RedM/meta_target
 
   - action: download_github
     dest: ./resources/[STANDALONE]/PolyZone
@@ -102,6 +102,16 @@ tasks:
     dest: ./resources/[RPX]/rpx-radial
     ref: main
     src: https://github.com/RPX-RedM/rpx-radial
+
+    - action: download_github
+    dest: ./resources/[RPX]/rpx-policejob
+    ref: main
+    src: https://github.com/RPX-RedM/rpx-policejob
+
+  - action: download_github
+    dest: ./resources/[RPX]/rpx-doctorjob
+    ref: main
+    src: https://github.com/RPX-RedM/rpx-doctorjob
 
   # Clean up
   - action: remove_path
