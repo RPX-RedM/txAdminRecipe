@@ -103,7 +103,7 @@ tasks:
     ref: main
     src: https://github.com/RPX-RedM/rpx-radial
 
-    - action: download_github
+  - action: download_github
     dest: ./resources/[RPX]/rpx-policejob
     ref: main
     src: https://github.com/RPX-RedM/rpx-policejob
