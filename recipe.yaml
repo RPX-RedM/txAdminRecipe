@@ -113,6 +113,11 @@ tasks:
     ref: main
     src: https://github.com/RPX-RedM/rpx-doctorjob
 
+  - action: download_github
+    dest: ./resources/[RPX]/rpx-goldpan
+    ref: main
+    src: https://github.com/RPX-RedM/rpx-goldpan
+
   # Clean up
   - action: remove_path
     path: ./tmp
