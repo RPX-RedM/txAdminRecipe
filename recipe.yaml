@@ -118,6 +118,11 @@ tasks:
     ref: main
     src: https://github.com/RPX-RedM/rpx-goldpan
 
+  - action: download_github
+    dest: ./resources/[RPX]/rpx-playershops
+    ref: main
+    src: https://github.com/RPX-RedM/rpx-playershops
+
   # Clean up
   - action: remove_path
     path: ./tmp
