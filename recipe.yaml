@@ -45,7 +45,7 @@ tasks:
   - action: download_github
     dest: ./resources/[STANDALONE]/PolyZone
     ref: master
-    src: https://github.com/whooith/PolyZone
+    src: https://github.com/qbcore-redm-framework/PolyZone
 
   - action: download_github
     dest: ./resources/[STANDALONE]/weathersync
